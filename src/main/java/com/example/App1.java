@@ -7,7 +7,7 @@ public class App1 {
         System.out.println();
         System.out.println("Minha aplicação Java\n");
 
-        //tipo nomeDaVariavel ;
+        //tipo nomeDaVariavel;
         int idade = 10, peso = 80;
         System.out.println("idade é " + idade + "Peso é"  +  peso );
 
