@@ -26,7 +26,14 @@ public class AppArrays {
         vetor3[3] = 400;
 
         System.out.println(Arrays.toString(vetor3));
+
+        double matriz [] [] = {{1,2,3}, {4,5,6} };
+        matriz[0] = new double [] {9, 8, 9};
+
+        System.out.println(Arrays.toString(matriz[0]));
+        System.out.println(Arrays.toString(matriz[1]));
     }
+
     
 }
 ///
