@@ -15,8 +15,8 @@ public class AppArrays {
         System.out.println("Valor da posicão 1:" + vetor [1]);
         System.out.println("Valor da posicão 2:" + vetor [2]);
 
-        int i = 10;
-        double d = i;
+        int c = 10;
+        double d = c;
         System.out.println(d);
 
         int vetor3[] = new int[4];
@@ -32,8 +32,34 @@ public class AppArrays {
 
         System.out.println(Arrays.toString(matriz[0]));
         System.out.println(Arrays.toString(matriz[1]));
+        System.out.println();
+
+        int vetor4[] = new int[5];
+        for (int i = 0; i < vetor4.length; i++) {
+            vetor4[i] = 100 * (i+1);
+
+        System.out.println(Arrays.toString(vetor4));    
+        System.out.println();
+
+        double matriz1 [] [] = new double [2] [3];
+        for (int e = 0; e < matriz1.length; e++){
+            for (int j = 0; j < matriz1 [e].length; j++){
+                matriz1 [e] [j] = e * matriz1[e].length + j;
+
+            }
+
+        }
+        for (int e = 0; e < matriz1.length; e++){
+            for (int j = 0; j < matriz1 [e].length; j++){
+                matriz1 [e] [j] = e * matriz1[e].length + j;
+
+                System.out.print(matriz[e][j] + " ");
+        }
+        System.err.println();
     }
 
     
 }
-///
+    
+    }
+}
